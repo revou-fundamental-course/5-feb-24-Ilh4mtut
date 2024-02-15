@@ -1,0 +1,86 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.celciusarea, .fahrenheitarea {
+    width: calc(100%);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.konversi {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3ab53e;
+    color: white;
+    border: double;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.konversi:hover {
+    background-color: #45a049;
+}
+
+.reset {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: double;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: rgb(233, 75, 75);
+}
+
+.reverse {
+    background-color: rgb(59, 59, 230);
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: double;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reverse:hover {
+    background-color: rgb(59, 59, 135);
+}
+
+.kalkulasiarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
